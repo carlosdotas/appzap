@@ -7,7 +7,7 @@ import { Storefront, LocalShipping } from '@mui/icons-material';
 import LocalSection from './components/LocalSection';
 import DetalhesSection from './components/DetalhesSection';
 
-import Pagamento from './modules/Pagamento';
+import Pagamento from './modules/Pagamentos';
 import Dialogs from '@/components/Dialogs';
 
 export default function CadastroEncomendaForm() {

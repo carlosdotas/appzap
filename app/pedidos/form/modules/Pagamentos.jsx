@@ -21,6 +21,7 @@ const ResumoBox = ({ label, value, bg, color, fontSize = '0.75rem' }) => (
   />
 );
 
+
 const DialogNovaEntrada = ({ open, onClose, onSave, novoItem, setNovoItem }) => (
   <Dialog open={open} onClose={onClose} fullWidth maxWidth="sm" PaperProps={{ sx: { borderRadius: 4 } }}>
     <Box sx={{ display: 'flex', alignItems: 'center', px: 2, py: 1.5, borderBottom: '1px solid #ddd' }}>
