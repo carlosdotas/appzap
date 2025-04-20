@@ -32,7 +32,7 @@ export default function MenuPrincipal() {
     {
       icon: <PersonIcon fontSize="large" color="success" />,
       title: 'Chamadas',
-      subtitle: 'Gerencie os clientes do sistema',
+      subtitle: 'Gerencie os clientes do sistemas',
       onClick: () => router.push('/chamadas'),
     },
     {
